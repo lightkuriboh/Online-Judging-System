@@ -1,0 +1,12 @@
+#include <bits/stdc++.h>
+using namespace std;
+int a, b;
+int main()
+{
+	//freopen("input.inp", "r", stdin);
+	//freopen("output.out", "w", stdout);
+    cin >> a >> b;
+    int res = a + b;
+    cout << res << "\n";
+    return 0;
+}

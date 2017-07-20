@@ -1,0 +1,15 @@
+Bộ quốc phòng nước XYZ dự đoán, một chiếc máy bay có thể xuất hiện ở n vị trí với xác suất tương ứng là p 1 , p 2 , ... , p n (p 1 + p 2 + ⋯ + p n = 1). Có m khẩu pháo sẽ được bố trí ở n vị trí, mỗi vị trí đặt ít nhất một khẩu pháo, biết rằng các khẩu pháo hoạt động độc lập với nhau và xác suất bắn trúng máy bay của mỗi khẩu pháo là p (0 < p ≤ 1). Yêu cầu: Cho p 1 , p 2 , ... , p n , p và m, hãy tìm phương án bố trí các khẩu pháo vào các vị trí để khả năng bắn trúng được máy bay là cao nhất.
+
+Input
+- Dòng đầu chứa 3 số n, m, p (n ≤ m ≤ 50);
+- Dòng thứ hai chứa n số thực dương p 1 , p 2 , ... , p n .
+
+Output
+- Gồm một dòng chứa n số nguyên dương, trong đó số thứ i là số lượng khẩu pháo đặt ở vị trí thứ i.
+
+Sample input
+2 3 0.8
+0.1 0.9
+
+Sample output
+1 2
