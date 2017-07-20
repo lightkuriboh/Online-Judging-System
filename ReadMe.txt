@@ -8,3 +8,9 @@ In each problem'test, there is a confic file "*.conf" which contain:
 ********************************
 Problems's content will stay in "/PHP/Problems/" folder
 ********************************
+Open /PHP/class_directory.php and /PHP/classes/class_directory
+and change the directory to yours.
+********************************
+Change the working folder of Judger at /Judger/Judger/GlobalConstant.cs
+and /Judger/Judger/Judge.cs
+********************************
